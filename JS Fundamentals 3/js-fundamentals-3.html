@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Fundamentals Pt. 3</title>
+    <!-- Your external JavaScript goes here -->
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <script>
+        // Your internal JavaScript goes here!
+        let add7 = (num) => num + 7;
+        console.log(add7(5));
+        
+        let multiply = (a, b) => a * b; 
+        console.log(multiply(5, 4));
+
+        function capitalize(text) {
+            let firstChar = text.charAt(0);
+            return firstChar.toUpperCase();
+        }
+        console.log(capitalize("human"));
+
+        function lastLetter(text) {
+            return text.charAt(text.length - 1);
+        }
+        console.log(lastLetter("abcd"));
+    </script>
+</body>
+</html>

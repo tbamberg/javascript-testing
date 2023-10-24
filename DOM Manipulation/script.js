@@ -28,3 +28,13 @@ blackPink.appendChild(blackPinkH1);
 blackPink.appendChild(blackPinkP);
 
 container.appendChild(blackPink);
+
+///////////////////////////////
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    alert(button.id);
+  });
+});
